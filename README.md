@@ -33,6 +33,7 @@ An athlete and fitness enthusiast at heart; a computer science engineer by profe
 |---|---|
 | **[Bare Metal K8s](https://github.com/Beem0807/bare-metal-k8s)** · [case study ↗](https://nabeem.com/projects/bare-metal-k8s) | Netboot blank machines into a **k3s** cluster in one command — under **UEFI Secure Boot with keys I mint myself**. My own PK/KEK/db sign the whole `shim → GRUB → kernel` chain: DHCP → UEFI HTTP Boot → autoinstall → Ansible → k3s. |
 | **[EKS GitOps Platform](https://github.com/Beem0807/eks-gitops-platform)** · [case study ↗](https://nabeem.com/projects/eks-gitops-platform) | A production-style Amazon **EKS** platform — Terraform + ArgoCD App-of-Apps + Karpenter + full observability, backup, and Kyverno policy across ~30 components, all reconciled from one repo. |
+| **[Namespace Bootstrap Operator](https://github.com/Beem0807/namespace-bootstrap-operator)** · [case study ↗](https://nabeem.com/projects/namespace-bootstrap-operator) | A Kubernetes **operator** that turns one `NamespaceProfile` resource into a governed namespace — **ResourceQuota, LimitRange, NetworkPolicies and Pod Security** labels — then keeps it that way, correcting drift on a watch event or refusing it outright at admission. Go, Kubebuilder, CEL, server-side apply. |
 | **[Reach](https://github.com/Beem0807/reach)** · [case study ↗](https://nabeem.com/projects/reach) | Give AI agents **policy-controlled** access to every machine you own — without SSH, VPNs, or open ports. Go, MCP, zero-trust, approval workflows. |
 
 ## `ls skills/`
@@ -76,8 +77,8 @@ The tooling I reach for to build, secure, and operate systems at scale.
 ![Falco](https://img.shields.io/badge/Falco-00AEC7)
 
 **Languages &amp; tooling** &nbsp;
-![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?logo=gnubash&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
